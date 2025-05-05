@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transport Comparison</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🚖🚌🏍️ Compare Travel Options</h1>
+
+        <label for="origin">Origin:</label>
+        <input type="text" id="origin" placeholder="Enter starting point">
+
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" placeholder="Enter destination">
+
+        <button id="getRoutesBtn">Get Routes</button>
+
+        <div class="results">
+            <div id="taxiDetails" class="route-box"></div>
+            <div id="busDetails" class="route-box"></div>
+            <div id="bikeDetails" class="route-box"></div>
+            <div id="mixedDetails" class="route-box"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
