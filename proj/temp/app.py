@@ -5,7 +5,7 @@ import requests
 app = Flask(__name__)
 CORS(app)  # Enable CORS to allow frontend requests
 
-GOOGLE_MAPS_API_KEY = "AIzaSyDXt8N-ZXcqsNGBGR9e6lKVweZd-k29AEs"
+GOOGLE_MAPS_API_KEY = "Google Key"
 
 # Function to get travel details from Google Maps API
 def get_routes(origin, destination, mode):
